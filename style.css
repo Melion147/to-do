@@ -1,0 +1,98 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+html {
+    font-size: 10px;
+    font-weight: 900;
+
+}
+
+body {
+    height: 100vh;
+    background-color: teal;
+}
+
+/* top */
+nav {
+    height: 10vh;
+    background-color: aqua;
+}
+
+input {
+    width: 60vw;
+    height: 3rem;
+}
+
+.addBtn {
+    background-color: teal;
+    width: 9vw;
+    height: 3rem;
+    cursor: pointer;
+}
+
+/* content */
+
+section {
+    height: 90vh;
+
+}
+
+
+
+
+li {
+    background-color: white;
+    width: 90vw;
+    margin: 1rem;
+    border-bottom: black 1px solid;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 3rem;
+
+}
+
+li i {
+    color: red;
+    cursor: pointer;
+}
+
+
+
+
+/* utility classes */
+.none {
+    display: none !important;
+}
+
+.f {
+    display: flex;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.jc {
+    justify-content: center;
+}
+
+.jspace-a {
+    justify-content: space-around;
+}
+
+.a {
+    align-items: center;
+
+}
+
+.animate {
+    opacity: 0;
+    transform: rotatex(-90deg);
+    transition: all 350ms;
+}
