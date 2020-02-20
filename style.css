@@ -13,25 +13,55 @@ html {
 
 body {
     height: 100vh;
-    background-color: teal;
+    background-color: #D6DBDF;
 }
 
 /* top */
 nav {
     height: 10vh;
-    background-color: aqua;
+    background-color: #374954;
 }
 
 input {
     width: 60vw;
-    height: 3rem;
+    height: 5rem;
+    font-size: 3rem;
+    outline: none;
+    background-color: #4F6877;
+    border: none;
+    border: 3px #6BBE92 solid;
+    border-right: none;
+    padding: 1rem;
+    color: white;
+    font-weight: 500;
+
 }
 
 .addBtn {
-    background-color: teal;
-    width: 9vw;
-    height: 3rem;
+    color: rgba(107, 190, 146, .7);
+    border: 3px #6BBE92 solid;
+    width: 5rem;
+    height: 5rem;
     cursor: pointer;
+    border-radius: 0 50% 50% 0;
+    text-align: center;
+    font-size: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 100;
+    transition: all 350ms;
+
+}
+
+.addBtn:hover {
+    color: #6BBE92;
+}
+
+.addBtn:active {
+    color: #6BBE92;
+    transition: rotate 450ms;
+    transform: rotatey(360deg);
 }
 
 /* content */
@@ -48,18 +78,34 @@ li {
     background-color: white;
     width: 90vw;
     margin: 1rem;
-    border-bottom: black 1px solid;
+
     padding: 1rem;
+    padding-left: 1.5rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-size: 3rem;
+    transition: 0.5s;
 
 }
 
 li i {
-    color: red;
+    color: grey;
     cursor: pointer;
+    transition: all 250ms ease-in-out;
+}
+
+li i:hover {
+    color: red;
+    transform: rotate(180deg)
+}
+
+li:first-child {
+    border-radius: 20px 20px 0 0;
+}
+
+li:last-child {
+    border-radius: 0 0 20px 20px;
 }
 
 
