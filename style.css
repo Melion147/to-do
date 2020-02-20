@@ -31,7 +31,7 @@ input {
     outline: none;
     background-color: #4F6877;
     border: none;
-    border: 3px #6BBE92 solid;
+    border: 3px white solid;
     border-right: none;
     padding: 1rem;
     color: white;
@@ -40,8 +40,8 @@ input {
 }
 
 .addBtn {
-    color: rgba(107, 190, 146, .7);
-    border: 3px #6BBE92 solid;
+    color: rgba(255, 255, 255, 0.7);
+    border: 3px white solid;
     width: 5rem;
     height: 5rem;
     cursor: pointer;
@@ -58,11 +58,11 @@ input {
 }
 
 .addBtn:hover {
-    color: #6BBE92;
+    color: white;
 }
 
 .addBtn:active {
-    color: #6BBE92;
+    color: white;
     transition: rotate 450ms;
     transform: rotatey(360deg);
 }
